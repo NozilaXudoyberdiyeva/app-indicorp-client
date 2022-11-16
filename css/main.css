@@ -560,3 +560,113 @@ body{
     color: #FFF;
 }
 /*************************Main style end***************************/
+/*************************Footer style start**************************/
+.footer-head{
+    height: 142px;
+    background-color: #fff;
+}
+.footer-head__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-head__title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin: 40px 0 10px;
+}
+.footer-head__desc{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.footer-head__btn{
+    width: 160px;
+    height: 58px;
+    background: #FFA62B;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-top: 42px;
+}
+.footer-head-btn__text{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFF;
+
+}
+.footer-body{
+    height: 272px;
+    background: #16697A;
+}
+.footer-body__list{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+}
+.footer-body__item{
+    list-style: none;
+}
+.footer-body__title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #FFF;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.desc-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 0;
+}
+.desc-item{
+    list-style: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFF;
+}
+.desc-text{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFF;
+    margin-left: 10px;
+}
+.footer-foot{
+    height: 74px;
+    background-color: #fff;
+}
+.footer-foot__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.footer-foot__title{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.footer-foot__list{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 0;
+}
+.footer-foot__item{
+    list-style: none;
+}
+/*************************Footer style end***************************/
